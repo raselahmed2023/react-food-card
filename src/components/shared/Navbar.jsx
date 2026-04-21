@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
 
-const page = () => {
+const Navbar = () => {
     const links = (
         <>
-            <li> <Link href={'/'}>Home Page</Link></li>
-            <li> <Link href={'/'}>Total data</Link></li>
+            <li> <Link href='/Home'>Home Page</Link></li>
+            <li> <Link href='/TotalPage'>Total data</Link></li>
 
         </>
     );
@@ -41,4 +41,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Navbar;
